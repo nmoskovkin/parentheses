@@ -1,0 +1,29 @@
+{
+  "name": "nmoskovkin/parentheses",
+  "description": "Check parentheses inside a string",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikolay Moskovkin",
+      "email": "nmoskovkinmp2@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "myclabs/php-enum": "^1.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Parentheses\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Parentheses\\Tests\\": "tests/"
+    }
+  }
+}
